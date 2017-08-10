@@ -9,11 +9,6 @@ import cn.shop.dao.UserDao;
 public class IndexServer {
 	private UserDao dao;
 	
-	public UserDao getDao() {
-		return dao;
-	}
-
-
 	public void setDao(UserDao dao) {
 		this.dao = dao;
 	}
@@ -21,5 +16,9 @@ public class IndexServer {
 		User user = new User();
 		user.setName("test");
 		dao.saveUser(user);
+	}
+	
+	public void addUser(User user) {
+		
 	}
 }

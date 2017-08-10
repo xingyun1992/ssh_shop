@@ -14,33 +14,33 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <link href="${ctx}/css/slider.css" rel="stylesheet" type="text/css"/>
 <link href="${ctx}/css/common.css" rel="stylesheet" type="text/css"/>
 <link href="${ctx}/css/index.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="./Mango商城 - Powered By Mango Team_files/jquery.js"></script>
-<script type="text/javascript" src="./Mango商城 - Powered By Mango Team_files/jquery.tools.js"></script>
-<script type="text/javascript" src="./Mango商城 - Powered By Mango Team_files/jquery.lazyload.js"></script>
-<script type="text/javascript" src="./Mango商城 - Powered By Mango Team_files/slider.js"></script>
-<script type="text/javascript" src="./Mango商城 - Powered By Mango Team_files/common.js"></script>
+<script type="text/javascript" src="${ctx}/js/jquery.js"></script>
+<script type="text/javascript" src="${ctx}/js/jquery.tools.js"></script>
+<script type="text/javascript" src="${ctx}/js/jquery.lazyload.js"></script>
+<script type="text/javascript" src="${ctx}/js/slider.js"></script>
+<script type="text/javascript" src="${ctx}/js/common.js"></script>
 </head>
 <body>
 <div class="container header">
 	<div class="span5">
 		<div class="logo">
 			<a href="./京华亿家/index.htm">
-				<img src="./image/r___________renleipic_01/logo.gif" alt="传智播客"/>
+				<img src="${ctx}/image/r___________renleipic_01/logo.gif" alt="传智播客"/>
 			</a>
 		</div>
 	</div>
 	<div class="span9">
 <div class="headerAd">
-	<img src="./image/header.jpg" width="320" height="50" alt="正品保障" title="正品保障"/>
+	<img src="${ctx}/image/header.jpg" width="320" height="50" alt="正品保障" title="正品保障"/>
 </div>	</div>
 	<div class="span10 last">
 		<div class="topNav clearfix">
 			<ul>
 				<li id="headerLogin" class="headerLogin" style="display: list-item;">
-					<a href="./会员登录.htm">登录</a>|
+					<a href="${ctx}/user_loginPage">登录</a>|
 				</li>
 				<li id="headerRegister" class="headerRegister" style="display: list-item;">
-					<a href="./会员注册.htm">注册</a>|
+					<a href="${ctx}/user_registerPage">注册</a>|
 				</li>
 				<li id="headerUsername" class="headerUsername"></li>
 				<li id="headerLogout" class="headerLogout">
@@ -126,38 +126,38 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							</li>
 					</ul>
 <!-- 					<div class="hotProductAd">
-			<img src="./image/a.jpg" width="260" height="343" alt="热门商品" title="热门商品">
+			<img src="${ctx}/image/a.jpg" width="260" height="343" alt="热门商品" title="热门商品">
 </div> -->
 						<ul class="tabContent" style="display: block;">
 									<li>
-										<a target="_blank"><img src="./image/b.jpg" data-original="http://storage.shopxx.net/demo-image/3.0/201301/0ff130db-0a1b-4b8d-a918-ed9016317009-thumbnail.jpg" style="display: block;"></a>
+										<a target="_blank"><img src="${ctx}/image/b.jpg" data-original="http://storage.shopxx.net/demo-image/3.0/201301/0ff130db-0a1b-4b8d-a918-ed9016317009-thumbnail.jpg" style="display: block;"></a>
 									</li>
 									<li>
-										<a  target="_blank"><img src="./image/c.jpg" data-original="http://storage.shopxx.net/demo-image/3.0/201301/51afeef5-f6cb-4936-abea-315cfca0edc0-thumbnail.jpg" style="display: block;"></a>
+										<a  target="_blank"><img src="${ctx}/image/c.jpg" data-original="http://storage.shopxx.net/demo-image/3.0/201301/51afeef5-f6cb-4936-abea-315cfca0edc0-thumbnail.jpg" style="display: block;"></a>
 									</li>
 									<li>
-										<a  target="_blank"><img src="./image/d.jpg" style="display: block;"></a>
+										<a  target="_blank"><img src="${ctx}/image/d.jpg" style="display: block;"></a>
 									</li>
 									<li>
-										<a  target="_blank"><img src="./image/e.jpg" style="display: block;"></a>
+										<a  target="_blank"><img src="${ctx}/image/e.jpg" style="display: block;"></a>
 									</li>
 									<li>
-										<a target="_blank"><img src="./image/f.jpg" style="display: block;"></a>
+										<a target="_blank"><img src="${ctx}/image/f.jpg" style="display: block;"></a>
 									</li>
 									<li>
-										<a  target="_blank"><img src="./image/g.jpg" style="display: block;"></a>
+										<a  target="_blank"><img src="${ctx}/image/g.jpg" style="display: block;"></a>
 									</li>
 									<li>
-										<a  target="_blank"><img src="./image/h.jpg" style="display: block;"></a>
+										<a  target="_blank"><img src="${ctx}/image/h.jpg" style="display: block;"></a>
 									</li>
 									<li>
-										<a target="_blank"><img src="./image/i.jpg" style="display: block;"></a>
+										<a target="_blank"><img src="${ctx}/image/i.jpg" style="display: block;"></a>
 									</li>
 									<li>
-										<a target="_blank"><img src="./image/i.jpg" style="display: block;"></a>
+										<a target="_blank"><img src="${ctx}/image/i.jpg" style="display: block;"></a>
 									</li>
 									<li>
-										<a target="_blank"><img src="./image/i.jpg" style="display: block;"></a>
+										<a target="_blank"><img src="${ctx}/image/i.jpg" style="display: block;"></a>
 									</li>
 						</ul>
 						<ul class="tabContent" style="display: none;">
@@ -231,33 +231,33 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							</li>
 					</ul>
 <!-- 					<div class="newProductAd">
-									<img src="./image/q.jpg" width="260" height="343" alt="最新商品" title="最新商品">
+									<img src="${ctx}/image/q.jpg" width="260" height="343" alt="最新商品" title="最新商品">
 						</div>
 						 -->						
 						 <ul class="tabContent" style="display: block;">
 									<li>
-										<a  target="_blank"><img src="./image/l.jpg" data-original="http://storage.shopxx.net/demo-image/3.0/201301/4a51167a-89d5-4710-aca2-7c76edc355b8-thumbnail.jpg" style="display: block;"></a>									</li>
+										<a  target="_blank"><img src="${ctx}/image/l.jpg" data-original="http://storage.shopxx.net/demo-image/3.0/201301/4a51167a-89d5-4710-aca2-7c76edc355b8-thumbnail.jpg" style="display: block;"></a>									</li>
 									<li>
-										<a  target="_blank"><img src="./image/m.jpg" style="display: block;"></a>									</li>
+										<a  target="_blank"><img src="${ctx}/image/m.jpg" style="display: block;"></a>									</li>
 									
 									<li>
-										<a target="_blank"><img src="./image/n.jpg" style="display: block;"></a>									</li>
+										<a target="_blank"><img src="${ctx}/image/n.jpg" style="display: block;"></a>									</li>
 									<li>
-										<a target="_blank"><img src="./image/o.jpg" style="display: block;"></a>									</li>
+										<a target="_blank"><img src="${ctx}/image/o.jpg" style="display: block;"></a>									</li>
 									<li>
-										<a target="_blank"><img src="./image/p.jpg" style="display: block;"></a>									</li>
+										<a target="_blank"><img src="${ctx}/image/p.jpg" style="display: block;"></a>									</li>
 									<li>
-										<a target="_blank"><img src="./image/m.jpg" style="display: block;"></a>									</li>
+										<a target="_blank"><img src="${ctx}/image/m.jpg" style="display: block;"></a>									</li>
 									<li>
-										<a  target="_blank"><img src="./image/15.jpg" style="display: block;"></a>
+										<a  target="_blank"><img src="${ctx}/image/15.jpg" style="display: block;"></a>
 									<li>
-										<a  target="_blank"><img src="./image/l.jpg" data-original="http://storage.shopxx.net/demo-image/3.0/201301/b499fb5e-999f-431b-a375-172ee09e4a3e-thumbnail.jpg" style="display: block;" /></a>
+										<a  target="_blank"><img src="${ctx}/image/l.jpg" data-original="http://storage.shopxx.net/demo-image/3.0/201301/b499fb5e-999f-431b-a375-172ee09e4a3e-thumbnail.jpg" style="display: block;" /></a>
 									</li>
 									<li>
-										<a  target="_blank"><img src="./image/l.jpg" data-original="http://storage.shopxx.net/demo-image/3.0/201301/b499fb5e-999f-431b-a375-172ee09e4a3e-thumbnail.jpg" style="display: block;" /></a>
+										<a  target="_blank"><img src="${ctx}/image/l.jpg" data-original="http://storage.shopxx.net/demo-image/3.0/201301/b499fb5e-999f-431b-a375-172ee09e4a3e-thumbnail.jpg" style="display: block;" /></a>
 									</li>
 									<li>
-										<a  target="_blank"><img src="./image/l.jpg" data-original="http://storage.shopxx.net/demo-image/3.0/201301/b499fb5e-999f-431b-a375-172ee09e4a3e-thumbnail.jpg" style="display: block;" /></a>
+										<a  target="_blank"><img src="${ctx}/image/l.jpg" data-original="http://storage.shopxx.net/demo-image/3.0/201301/b499fb5e-999f-431b-a375-172ee09e4a3e-thumbnail.jpg" style="display: block;" /></a>
 									</li>
 						</ul>
 						<ul class="tabContent" style="display: none;">
@@ -361,7 +361,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div class="container footer">
 	<div class="span24">
 		<div class="footerAd">
-					<img src="./image/footer.jpg" width="950" height="52" alt="我们的优势" title="我们的优势">
+					<img src="${ctx}/image/footer.jpg" width="950" height="52" alt="我们的优势" title="我们的优势">
 </div>	</div>
 	<div class="span24">
 		<ul class="bottomNav">

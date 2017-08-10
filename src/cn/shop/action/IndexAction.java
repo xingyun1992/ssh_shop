@@ -1,14 +1,5 @@
 package cn.shop.action;
 
-import javax.servlet.ServletContext;
-
-import org.apache.commons.logging.impl.Log4JLogger;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
-import org.springframework.web.context.ContextLoader;
-import org.springframework.web.context.WebApplicationContext;
-import org.springframework.web.context.support.WebApplicationContextUtils;
-
 import cn.shop.server.IndexServer;
 import cn.shop.utils.LogUtil;
 
@@ -25,8 +16,7 @@ public class IndexAction extends ActionSupport{
 	@Override
 	public String execute() throws Exception {
 		// TODO Auto-generated method stub
-		LogUtil.getLog().info("index");
-		indexServer.test();
+		LogUtil.get().info("index");
 		return SUCCESS;
 	}
 	

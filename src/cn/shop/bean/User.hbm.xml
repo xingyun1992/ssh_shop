@@ -11,7 +11,13 @@
 		<id name="id" column="id">
 			<generator class="assigned"/>
 		</id>
-		<property name="name" column="name" type="string" length="20"/>
-		
+		<property name="userName" />
+		<property name="passWord" />
+		<property name="email" />
+		<property name="name" />
+		<property name="sex" />
+		<property name="bithdate" />
+		<property name="area" />
+		<property name="address" />
 	</class>
 </hibernate-mapping>

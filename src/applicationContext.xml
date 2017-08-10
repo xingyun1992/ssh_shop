@@ -55,4 +55,10 @@
 	<bean id="indexAction" class="cn.shop.action.IndexAction">
 		<property name="indexServer" ref="indexServer"></property>
 	</bean>
+	<bean id="userAction" class="cn.shop.action.UserAction">
+		<property name="userServer" ref="userServer"></property>
+	</bean>
+	<bean id="userServer" class="cn.shop.server.UserServer">
+		<property name="dao" ref="userDao"/>
+	</bean>
 </beans>
